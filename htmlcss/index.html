@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css" />
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.39/css/uikit.min.css" />
+
+    <!-- UIkit JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.39/js/uikit.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.39/js/uikit-icons.min.js"></script>
+
+
+</head>
+
+<body>
+
+    <div class="center">
+        <div class="uk-container uk-container-expand">
+            <div class="uk-card uk-card-default uk-card-body uk-background-primary" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
+                <h3 class="uk-card-title colorwhite">Wallpaper Inserting Form</h3>
+                <hr class="uk-divider-icon">
+                <p class="colorwhite">This form insert the wallpaper images into the mysql in azure cloud.</p>
+                <hr class="uk-divider-small">
+
+                <form action="/action" method="POST">
+                    <select class="uk-select" id="form-stacked-select" name="walltype">
+                        <option>Mountain</option>
+                        <option>Sea</option>
+                        <option>Sports</option>
+                        <option>Universe</option>
+                    </select>
+                    <div class="uk-margin">
+                        <input class="uk-input" type="text" placeholder="Small device image url" name="smallwall">
+                    </div>
+                    <div class="uk-margin">
+                        <input class="uk-input" type="text" placeholder="Medium device image url" name="mediumwall">
+                    </div>
+                    <div class="uk-margin">
+                        <input class="uk-input" type="text" placeholder="Large device image url" name="largewall">
+                    </div>
+                    <button class="uk-button uk-button-danger" type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    </di>
+
+</body>
+
+</html>

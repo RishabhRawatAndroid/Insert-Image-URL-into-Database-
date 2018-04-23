@@ -1,0 +1,28 @@
+{
+  "name": "html-nodejs-mysql",
+  "version": "0.2.0",
+  "description": "A sample app which is insert data from html page to mysql using nodejs",
+  "main": "app.js",
+  "scripts": {
+    "start": "app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "jade": "^1.11.0",
+    "mysql": "^2.15.0"
+  },
+  "engines": {
+    "node": "4.0.0"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "author": "Rishabh Rawat",
+  "contributors": [
+    "Rishabh Rawat <rishicetury@gmail.com>"
+  ],
+  "license": "MIT"
+}
